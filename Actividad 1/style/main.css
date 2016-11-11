@@ -1,0 +1,96 @@
+div.contenido {
+    width: 100%
+}
+header {
+    text-align: center;
+    background-color: lightcoral;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-family: Lobster, sans-serif;
+    font-size: 20pt;
+    color: white;
+    width: 100%;
+}
+header h1 a{
+    text-decoration: none;
+    font-style: none;
+    color: white;
+}
+button.icon {
+    background-color: lightcoral;
+    border-style: none;
+}
+img.granny {
+    width: 100px;
+    background-color: lightcoral;
+}
+img.granny:hover {
+    transform: scale(1.5)
+}
+nav {
+    float: left;
+    width: 180px;
+    margin-top: -1em;
+}
+nav ul li {
+    text-decoration: none;
+    list-style: none;
+    color: orange;
+}
+a {
+    text-decoration: none;
+    color: orange;
+}
+nav ul li a:hover {
+    color: orangered;
+    font-size: 18px;
+}
+article {
+    margin-left: 14em;
+    margin-top: 0em;
+    border-left-style: ridge;
+    padding-top: 1em;
+    padding-left: 1em;
+}
+article.food {
+    margin-left: 14em;
+    margin-top: 0em;
+    border-left-style: ridge;
+    padding-top: 1em;
+    padding-left: 1em;
+}
+div.article {
+    background-color: cornsilk;
+    padding: 1em;
+    border-radius: 30px;
+}
+article h1 {
+    font-family: Lobster;
+    font-size: 40pt;
+}
+img.food {
+    width: 340px;
+    border-radius: 30px;
+    height: 280px;
+}
+article ul {
+    margin-left: 22em;
+    margin-top: -15em;
+    max-width: 192px;
+}
+article ul li {
+    font-size: 15pt;
+}
+article h3 {
+    font-family: Lobster;
+    font-size: 20pt;
+}
+div.food {
+    background-color: cornsilk;
+    padding: 1em;
+    border-radius: 30px;
+    margin-left: 38em;
+    margin-top: -12em;
+    max-width: 900px;
+    min-height: 300px;
+}
